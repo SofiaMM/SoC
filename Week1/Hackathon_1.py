@@ -28,6 +28,7 @@ def continentSize(xtiles,world):
 				nb_dic[x].append(xtiles[xt])
     
     #count and identify the continents
+    
 	cont_count = 0
 	cont=[]
 	c = []
@@ -45,7 +46,7 @@ def continentSize(xtiles,world):
 			cont_count += 1
 			#arranjar maneira de c voltar ao que era ou entao mudar para uma nova coordenada
 
-	return nb_dic,cont,cont_count
+	# return nb_dic,cont,cont_count
 
 def xtile_coord(world):
 	xtiles = []
